@@ -1,0 +1,92 @@
+/* navbar.css */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #00264d; /* Dark blue background */
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo img {
+  margin-right: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.navbar-link:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e6e6e6; /* Tiny border at the bottom */
+}
+
+.navbar-bottom-links {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-bottom-link {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
+.navbar-bottom-link:hover {
+  border-bottom: 2px solid #1876db;
+  color: #1876db;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.navbar-search input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.navbar-search button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+}
