@@ -10,8 +10,8 @@ const NavItems = () => {
   ];
   return (
     <>
-      {items.map((item) => (
-        <Link className="navbar-bottom-link" to={item.to}>
+      {items.map((item, i) => (
+        <Link key={i} className="navbar-bottom-link" to={item.to}>
           {item.name}
         </Link>
       ))}

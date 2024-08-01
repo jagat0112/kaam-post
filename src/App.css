@@ -10,3 +10,7 @@ p {
   font-style: normal;
   color: #1a1f2c;
 }
+
+.error-message {
+  color: #b22222; /* Elegant red color */
+}

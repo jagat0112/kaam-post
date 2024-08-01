@@ -1,16 +1,50 @@
 .button {
   width: 80%;
   max-width: 500px;
+  height: 45px;
   padding: 10px;
-  background-color: #3f7dde;
-  color: white;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: 500;
   cursor: pointer;
   text-align: center;
 }
 
-.button:hover {
+.btn-blue {
+  background-color: #3f7dde;
+  color: white;
+}
+
+.btn-blue-reverse {
+  border: 1px solid #141823;
+
+  color: #3f7dde;
+  background-color: white;
+}
+
+.btn-regular {
+  background-color: #ffffff;
+  color: #141823;
+  border: 1px solid #141823;
+}
+
+.btn-blue:hover {
   background-color: #316bcb;
+}
+
+.mt-5 {
+  margin-bottom: 10px;
+}
+
+.logo-signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap as needed */
+  font-family: Arial, sans-serif;
+}
+
+.logo-signin img {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
 }
